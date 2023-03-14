@@ -1,0 +1,130 @@
+{
+  "kind": "collectionType",
+  "collectionName": "blogs",
+  "info": {
+    "singularName": "blog",
+    "pluralName": "blogs",
+    "displayName": "Blog",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string",
+      "required": true
+    },
+    "BlogImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "Intro": {
+      "type": "richtext"
+    },
+    "SubHeading1": {
+      "type": "string"
+    },
+    "Image1": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "SubContent1": {
+      "type": "richtext"
+    },
+    "SubHeading2": {
+      "type": "string"
+    },
+    "Image2": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    },
+    "SubContent2": {
+      "type": "richtext"
+    },
+    "SubHeading3": {
+      "type": "string"
+    },
+    "Image3": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "SubContent3": {
+      "type": "richtext"
+    },
+    "SubHeading4": {
+      "type": "string"
+    },
+    "Image4": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "SubContent4": {
+      "type": "richtext"
+    },
+    "SubHeading5": {
+      "type": "string"
+    },
+    "Image5": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "SubContent5": {
+      "type": "richtext"
+    },
+    "SubHeading6": {
+      "type": "string"
+    },
+    "Image6": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "SubContent6": {
+      "type": "richtext"
+    }
+  }
+}
